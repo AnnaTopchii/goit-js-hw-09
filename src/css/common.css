@@ -16,3 +16,17 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.change-color-buttons-stop, .change-color-buttons-start {
+  border-radius: 5;
+  border: #212121, 3px, solid;
+  background-color: #fafafa;
+  padding: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 200 0 0 500;
+}
+
+.change-color-buttons-stop{
+  margin-left: 10px;
+}
