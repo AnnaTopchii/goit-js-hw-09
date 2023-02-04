@@ -30,3 +30,32 @@ img {
 .change-color-buttons-stop{
   margin-left: 10px;
 }
+
+.timer-button {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.timer-input {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.timer{
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.timer .value {
+  font-size: 50px;
+  display: block;
+
+}
+
+.timer .label {
+  font-size: 20px;
+  text-transform: uppercase;
+
+}
