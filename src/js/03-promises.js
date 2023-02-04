@@ -27,6 +27,7 @@ function onSubmit(e) {
       Notify.success(`✅ Fulfilled promise ${position} in ${delay}ms`);
       })
       .catch(({ position, delay }) => {
+      console.log(position);
       Notify.failure(`❌ Rejected promise ${position} in ${delay}ms`);
       });
     
