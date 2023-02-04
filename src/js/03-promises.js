@@ -20,7 +20,7 @@ function onSubmit(e) {
   console.log(stepInput);
   console.log(amountInput);
 
-  for (i = 1; i <= amountInput; i += 1) {
+  for (let i = 1; i <= amountInput; i += 1) {
     createPromise(i, delayInput)
       .then(({ position, delay }) => {
       console.log(position);
